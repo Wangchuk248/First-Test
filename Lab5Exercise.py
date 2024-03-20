@@ -1,6 +1,6 @@
-from queue import LifoQueue
+from queue import Queue
 import sys
-patient_list=LifoQueue()
+patient_list=Queue()
 current_list= None
 while True:
     print("WELCOME TO CST INFIRMARY APPOINTMENT AND REGISTRATION!!")
@@ -36,4 +36,3 @@ while True:
 
     else:
         print("Invalid syntax!!")
-
